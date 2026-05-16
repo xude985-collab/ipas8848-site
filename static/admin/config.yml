@@ -4,6 +4,10 @@ backend:
   branch: main
   auth_type: pkce
   app_id: Ov23liV7Qxrbth2lKcR4
+  base_url: https://www.ipas8848.com
+  auth_endpoint: /admin/
+
+site_url: https://www.ipas8848.com
 
 media_folder: static/images
 public_folder: /images
