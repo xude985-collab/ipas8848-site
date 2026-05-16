@@ -1,0 +1,39 @@
+baseURL = 'https://ipas8848.com/'
+languageCode = 'zh-cn'
+title = '国标知产 — 企业咨询与知识产权服务'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  description = "专业的企业咨询与知识产权服务，助力企业创新发展。"
+  author = "国标知产"
+  defaultTheme = "auto"
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showToc = false
+
+  [params.homeInfoParams]
+    Title = "专业知识产权服务"
+    Content = "为企业提供商标注册、专利申请、版权保护及企业咨询一站式服务。"
+
+[menu]
+  [[menu.main]]
+    identifier = "services"
+    name = "服务项目"
+    url = "/services/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "行业资讯"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我们"
+    url = "/about/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
