@@ -1,12 +1,12 @@
 baseURL = 'https://ipas8848.com/'
 languageCode = 'zh-cn'
-title = '国标知产 — 企业咨询与知识产权服务'
+title = '国知灯塔 — 企业咨询与知识产权服务'
 theme = 'PaperMod'
 
 [params]
   env = "production"
   description = "专业的企业咨询与知识产权服务，助力企业创新发展。"
-  author = "国标知产"
+  author = "国知灯塔"
   defaultTheme = "auto"
   showReadingTime = true
   showShareButtons = false
@@ -15,7 +15,7 @@ theme = 'PaperMod'
   showToc = false
 
   [params.label]
-    text = "国标知产"
+    text = "国知灯塔"
     icon = "/logo.jpg"
     iconHeight = 40
 
