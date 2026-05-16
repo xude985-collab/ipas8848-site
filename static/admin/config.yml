@@ -2,6 +2,8 @@ backend:
   name: github
   repo: xude985-collab/ipas8848-site
   branch: main
+  auth_type: pkce
+  app_id: Ov23liV7Qxrbth2lKcR4
 
 media_folder: static/images
 public_folder: /images
