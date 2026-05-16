@@ -1,0 +1,69 @@
+:root {
+    --theme: #1a365d;
+    --entry: #ffffff;
+    --primary: #1a365d;
+    --secondary: #4a5568;
+    --tertiary: #e2e8f0;
+    --content: #2d3748;
+    --code-bg: #f7fafc;
+    --border: #e2e8f0;
+}
+
+body {
+    background: #f7fafc;
+}
+
+.main {
+    max-width: 800px;
+}
+
+header .logo a {
+    color: #1a365d;
+    font-weight: 700;
+}
+
+.nav a {
+    color: #2d3748;
+}
+
+.nav a:hover {
+    color: #1a365d;
+}
+
+.first-entry {
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+}
+
+.post-entry {
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+}
+
+.post-entry:hover {
+    border-color: #1a365d;
+}
+
+.entry-header h2 {
+    color: #1a365d;
+}
+
+.home-info .entry-content {
+    color: #4a5568;
+}
+
+.home-info h1 {
+    color: #1a365d;
+}
+
+footer {
+    color: #718096;
+}
+
+a {
+    color: #2b6cb0;
+}
+
+a:hover {
+    color: #1a365d;
+}

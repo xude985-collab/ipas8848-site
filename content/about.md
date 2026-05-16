@@ -23,4 +23,4 @@ draft: false
 
 ### 联系方式
 
-邮箱：[ip@ipas8848.com](mailto:ip@ipas8848.com)
+邮箱：[43349485@qq.com](mailto:43349485@qq.com)
