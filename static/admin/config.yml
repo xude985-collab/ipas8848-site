@@ -5,8 +5,6 @@ backend:
   auth_type: pkce
   app_id: Ov23liV7Qxrbth2lKcR4
 
-site_url: https://www.ipas8848.com
-
 media_folder: static/images
 public_folder: /images
 
