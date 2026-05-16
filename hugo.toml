@@ -17,7 +17,7 @@ theme = 'PaperMod'
   [params.label]
     text = "国知灯塔"
     icon = "/logo.jpg"
-    iconHeight = 60
+    iconHeight = 100
 
   [params.homeInfoParams]
     Title = "专业知识产权服务"
