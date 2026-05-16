@@ -7,7 +7,7 @@ theme = 'PaperMod'
   env = "production"
   description = "专业的企业咨询与知识产权服务，助力企业创新发展。"
   author = "国知灯塔"
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   showReadingTime = true
   showShareButtons = false
   showPostNavLinks = true
@@ -17,7 +17,7 @@ theme = 'PaperMod'
   [params.label]
     text = "国知灯塔"
     icon = "/logo.jpg"
-    iconHeight = 40
+    iconHeight = 60
 
   [params.homeInfoParams]
     Title = "专业知识产权服务"
