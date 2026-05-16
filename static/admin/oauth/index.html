@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>OAuth Callback</title>
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get('code');
+      const state = params.get('state');
+      if (window.opener) {
+        window.opener.postMessage(
+          'authorization:github:success:' + JSON.stringify({ code, state }),
+          window.location.origin
+        );
+        window.close();
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>正在完成认证...</p>
+</body>
+</html>
