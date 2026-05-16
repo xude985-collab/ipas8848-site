@@ -14,6 +14,11 @@ theme = 'PaperMod'
   showBreadCrumbs = true
   showToc = false
 
+  [params.label]
+    text = "国标知产"
+    icon = "/logo.jpg"
+    iconHeight = 40
+
   [params.homeInfoParams]
     Title = "专业知识产权服务"
     Content = "为企业提供商标注册、专利申请、版权保护及企业咨询一站式服务。"
